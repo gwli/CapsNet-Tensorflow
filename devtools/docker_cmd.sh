@@ -1,4 +1,4 @@
-tag=nvdevtools/tensorflow:pip-cuda-8.0
+tag=nvdevtools/tensorflow:1.4.0-cuda-8.0
 
 nvidia-docker run --privileged=true  -e DISPLAY  --net=host --ipc=host -it --rm  -p 7022:22 -p 5022:5022 \
      -v $HOME/.Xautority:/home/nvidia/.Xautoority \
